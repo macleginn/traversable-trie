@@ -82,7 +82,7 @@ if node_hello:
     print(f"Node for 'hello' found. Key: {node_hello.key}, Is end: {node_hello.is_end_of_sequence}")
     # Node for 'hello' found. Key: o, Is end: True
 ```
-**Note:** `get_node` also accepts a single non-iterable item as a prefix, which it will treat as a single-element sequence (e.g., `my_trie.get_node("token")` is equivalent to `my_trie.get_node(["token"])` if "token" was inserted as part of a list like `[["token"]]`). However, if you pass a string like `"abc"`, it will be treated as `['a', 'b', 'c']`.
+**Note:** `get_node` also accepts a single non-iterable item as a prefix, which it will treat as a single-element sequence. E.g., `my_trie.get_node(1)` is equivalent to `my_trie.get_node([1])`. However, if you pass a string like `"abc"`, it will be treated as `['a', 'b', 'c']`.
 
 ### Testing for Prefixes (`test_prefix`)
 
