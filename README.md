@@ -5,13 +5,13 @@ A Python implementation of the trie data structure. This trie can store sequence
 ## Features
 
 - Stores sequences of hashable items (e.g., lists of strings, numbers, or tuples).
-- Treats bare strings as sequences of characters, allowing it to function as a classical character Trie.
+- Treats bare strings as sequences of characters, allowing it to function as a classical character trie.
 - Provides a method to find the longest stored prefix of a given sequence.
 
 ## File Structure
 
 - `trie.py`: Contains the implementation of `TrieNode` and `Trie` classes.
-- `test_trie.py`: Contains unit tests for the Trie implementation.
+- `test_trie.py`: Contains unit tests for the trie implementation.
 
 ## Usage
 
@@ -23,7 +23,7 @@ from trie import Trie
 
 ### Initialization
 
-Create a new Trie instance:
+Create a new trie instance:
 
 ```python
 my_trie = Trie()
@@ -86,7 +86,7 @@ if node_hello:
 
 ### Testing for Prefixes (`test_prefix`)
 
-The `test_prefix` method finds the longest prefix of a given sequence that has been explicitly inserted into the Trie (i.e., its `is_end_of_sequence` flag is `True`).
+The `test_prefix` method finds the longest prefix of a given sequence that has been explicitly inserted into the trie (i.e., its `is_end_of_sequence` flag is `True`).
 
 ```python
 # Setup
