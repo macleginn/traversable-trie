@@ -1,4 +1,4 @@
-# Python Trie Implementation
+# A trie in Python with step-by-step traversal and longest-prefix retrieval
 
 A Python implementation of a Trie data structure. This Trie can store sequences of hashable objects. It's designed to allow for step-by-step traversal and to efficiently find the longest prefix of a given sequence that exists in the Trie as a valid, previously inserted sequence.
 
